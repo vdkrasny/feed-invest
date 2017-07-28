@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Инвестиции</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- ----------->
+    <link rel="stylesheet" type="text/css" href="css/jquery.reject.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.skinHTML5.css">
+    <link rel="stylesheet" type="text/css" href="css/selectric.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- ----------->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.reject.js"></script>
+    <script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.selectric.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body class="lk investments">
+    <header id="header">
+      <div class="container grid">
+        <div class="col-5">
+          <div class="ln-cont">
+            <ul class="f-li cont">
+              <li><a class="pre-ico" href="tel:441234567890"><i class="icon -en-h"></i><span>+44 123 456 7890</span></a></li>
+              <li><a class="pre-ico" href="tel:749122345678"><i class="icon -ru-h"></i><span>+7 49 122 34 5678</span></a></li>
+            </ul>
+          </div>
+          <div class="ln-but">
+            <div class="social-net"><a class="diamond social icon fa fa-vk" href="#"><span class="label">vk</span></a><a class="diamond social icon fa fa-facebook" href="#"><span class="label">facebook</span></a><a class="diamond social icon fa fa-youtube-play" href="#"><span class="label">youtube</span></a><a class="diamond social icon fa fa-odnoklassniki" href="#"><span class="label">odnoklassniki</span></a></div>
+            <div class="clock-time">
+              <div class="diamond clock"><span class="dd-cont" id="hh"></span></div><span>:</span>
+              <div class="diamond clock"><span class="dd-cont" id="mm"></span></div><span>:</span>
+              <div class="diamond clock"><span class="dd-cont" id="ss"></span></div>
+            </div>
+            <div class="clock-date" id="date"><span class="date clock"></span><span class="day clock"></span></div>
+          </div>
+        </div>
+        <div class="col-2 ln-center"><a class="logo" href="#"><img src="img/logo-header.png" alt="">
+            <div class="logo-txt"><span class="cap">feed</span><span>invest</span></div></a></div>
+        <div class="col-5">
+          <div class="ln-cont -ln-r">
+            <ul class="f-li cont">
+              <li><a class="pre-ico" href="#"><i class="icon -skype-h"></i><span>feed-invest-info</span></a></li>
+              <li><a class="pre-ico" href="#"><i class="icon -mail-h"></i><span>feed-invest@gmail.com</span></a></li>
+            </ul>
+          </div>
+          <div class="ln-but -ln-r"><a class="btn b-ico er-skype" href="#"><i class="b-skype"></i><span>скайп-чат</span></a><a class="btn b-ico er-enter" href="#"><i class="b-home"></i><span>на главную страницу</span></a></div>
+        </div>
+      </div>
+    </header>
+    <div class="sub-main-hdr">
+      <div class="container grid">
+        <div class="col-5 ln-benefits grid">
+          <div class="col-6 -color-1">
+            <div class="ltxt-stuct">
+              <p>Добро пожаловать!</p><a href="#">Иванов Сергей Петрович</a>
+            </div>
+            <div class="ltxt-stuct">
+              <p>Последний вход:</p><span>25.08.2016, 21:45</span>
+            </div>
+            <input id="sh-avatar" type="file">
+            <label class="btn b-ico lk-hdr-1" for="sh-avatar"><i class="b-arrow"></i><span>сменить аватар</span></label>
+          </div>
+          <div class="col-6 -color-2">
+            <div class="ltxt-stuct">
+              <p>Вас пригласил:</p><a href="#">Sidorov_petrov</a>
+            </div>
+            <div class="ltxt-stuct">
+              <p>Реферальная ссылка:</p><span id="copy-link">http://referal.com/feed-invest</span>
+            </div><span class="btn b-ico lk-hdr-2" onclick="copyToClipboard(document.getElementById('copy-link').innerHTML)"><i class="b-arrow"></i><span>копировать</span></span>
+          </div>
+        </div>
+        <div class="col-2 ln-center">
+          <div class="diamond lk-avatar">
+            <div class="dd-cont" style="background-image: url('img/man.jpg')"></div>
+          </div>
+        </div>
+        <div class="col-5 ln-benefits -ln-r grid">
+          <div class="col-5 ln-balance -color-3"><span>ваш баланс:</span><span class="cap">1 270$</span><a class="btn b-ico lk-hdr-3" href="#"><i class="b-arrow"></i><span>балансы ЭПС</span></a></div>
+          <div class="col-7 ln-bg-btn"><a class="btn bg lk-bg-1" href="#"><span>Инвестировать</span></a><a class="btn bg lk-bg-2" href="#"><span>Вывести средства</span></a><a class="btn bg lk-bg-3" href="#"><span>Открыть депозит с баланса</span></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-color">
+      <div class="container">
+        <div class="tab-panel">
+          <div class="tab-content">
+            <div class="separate">
+              <div class="table-block ln-oneline">
+                <div class="tbl-cont -lr-cont">
+                  <div class="cell">
+                    <div class="btn b-ico big-lab lk-1"><i class="icon b-balance"></i>
+                      <div class="cont-cib"><span>Заработано Сегодня:</span><span class="rt-state">380$</span></div>
+                    </div>
+                  </div>
+                  <div class="cell">
+                    <div class="btn b-ico big-lab lk-2"><i class="icon b-balance"></i>
+                      <div class="cont-cib"><span>Общая сумма Активных Депозитов:</span><span class="rt-state">1120$</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="separate">
+              <div class="table-block tb-col3 defsotr clr-1">
+                <div class="tbl-cont -c-cont -def-1">
+                  <div class="cell"><span class="ds-clr"><span class="cap">145%</span> за 30 дней</span><span>Создано: 27.08.2016</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-2">
+                  <div class="cell"><span>сумма вклада:</span><span class="cap">250.00$</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-3">
+                  <div class="cell"><span>платежная система:</span><img src="img/pay-systems-pm.png" alt=""></div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-4">
+                  <div class="cell">
+                    <p>Следующее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                  <div class="cell">
+                    <p>Последнее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                </div>
+                <div class="tbl-cont -c-cont -def-5">
+                  <div class="cell">
+                    <p>Начислений <span class="ds-clr">19</span> из <span class="ds-clr">35</span></p>
+                    <div class="progress horizontal no-text bar-investments">
+                      <div class="progress-bar col1">
+                        <div class="progress-track">
+                          <div class="progress-fill"><span>47%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-6">
+                  <div class="cell">
+                    <p>Всего <br> начислено:</p><span class="cap ds-clr">190$</span>
+                  </div>
+                  <div class="cell">
+                    <p>Осталось <br> начислить:</p><span class="cap ds-clr">38%</span>
+                  </div>
+                </div>
+                <div class="diamond investments">
+                  <div class="dd-cont">
+                    <div class="h" style="height: 80%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-block tb-col3 defsotr clr-2">
+                <div class="tbl-cont -c-cont -def-1">
+                  <div class="cell"><span class="ds-clr"><span class="cap">210%</span> за 60 дней</span><span>Создано: 27.08.2016</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-2">
+                  <div class="cell"><span>сумма вклада:</span><span class="cap">250.00$</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-3">
+                  <div class="cell"><span>платежная система:</span><img src="img/pay-systems-pm.png" alt=""></div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-4">
+                  <div class="cell">
+                    <p>Следующее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                  <div class="cell">
+                    <p>Последнее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                </div>
+                <div class="tbl-cont -c-cont -def-5">
+                  <div class="cell">
+                    <p>Начислений <span class="ds-clr">19</span> из <span class="ds-clr">35</span></p>
+                    <div class="progress horizontal no-text bar-investments">
+                      <div class="progress-bar col3">
+                        <div class="progress-track">
+                          <div class="progress-fill"><span>47%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-6">
+                  <div class="cell">
+                    <p>Всего <br> начислено:</p><span class="cap ds-clr">190$</span>
+                  </div>
+                  <div class="cell">
+                    <p>Осталось <br> начислить:</p><span class="cap ds-clr">38%</span>
+                  </div>
+                </div>
+                <div class="diamond investments">
+                  <div class="dd-cont">
+                    <div class="h" style="height: 30%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-block tb-col3 defsotr clr-3">
+                <div class="tbl-cont -c-cont -def-1">
+                  <div class="cell"><span class="ds-clr"><span class="cap">180%</span> за 45 дней</span><span>Создано: 27.08.2016</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-2">
+                  <div class="cell"><span>сумма вклада:</span><span class="cap">250.00$</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-3">
+                  <div class="cell"><span>платежная система:</span><img src="img/pay-systems-pm.png" alt=""></div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-4">
+                  <div class="cell">
+                    <p>Следующее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                  <div class="cell">
+                    <p>Последнее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                </div>
+                <div class="tbl-cont -c-cont -def-5">
+                  <div class="cell">
+                    <p>Начислений <span class="ds-clr">19</span> из <span class="ds-clr">35</span></p>
+                    <div class="progress horizontal no-text bar-investments">
+                      <div class="progress-bar col2">
+                        <div class="progress-track">
+                          <div class="progress-fill"><span>47%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-6">
+                  <div class="cell">
+                    <p>Всего <br> начислено:</p><span class="cap ds-clr">190$</span>
+                  </div>
+                  <div class="cell">
+                    <p>Осталось <br> начислить:</p><span class="cap ds-clr">38%</span>
+                  </div>
+                </div>
+                <div class="diamond investments">
+                  <div class="dd-cont">
+                    <div class="h" style="height: 60%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-block tb-col3 defsotr clr-1">
+                <div class="tbl-cont -c-cont -def-1">
+                  <div class="cell"><span class="ds-clr"><span class="cap">180%</span> за 45 дней</span><span>Создано: 27.08.2016</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-2">
+                  <div class="cell"><span>сумма вклада:</span><span class="cap">250.00$</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-3">
+                  <div class="cell"><span>платежная система:</span><img src="img/pay-systems-pm.png" alt=""></div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-4">
+                  <div class="cell">
+                    <p>Следующее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                  <div class="cell">
+                    <p>Последнее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                </div>
+                <div class="tbl-cont -c-cont -def-5">
+                  <div class="cell">
+                    <p>Начислений <span class="ds-clr">19</span> из <span class="ds-clr">35</span></p>
+                    <div class="progress horizontal no-text bar-investments">
+                      <div class="progress-bar col1">
+                        <div class="progress-track">
+                          <div class="progress-fill"><span>47%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-6">
+                  <div class="cell">
+                    <p>Всего <br> начислено:</p><span class="cap ds-clr">190$</span>
+                  </div>
+                  <div class="cell">
+                    <p>Осталось <br> начислить:</p><span class="cap ds-clr">38%</span>
+                  </div>
+                </div>
+                <div class="diamond investments">
+                  <div class="dd-cont">
+                    <div class="h" style="height: 25%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-block tb-col3 defsotr clr-2">
+                <div class="tbl-cont -c-cont -def-1">
+                  <div class="cell"><span class="ds-clr"><span class="cap">180%</span> за 45 дней</span><span>Создано: 27.08.2016</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-2">
+                  <div class="cell"><span>сумма вклада:</span><span class="cap">250.00$</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-3">
+                  <div class="cell"><span>платежная система:</span><img src="img/pay-systems-pm.png" alt=""></div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-4">
+                  <div class="cell">
+                    <p>Следующее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                  <div class="cell">
+                    <p>Последнее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                </div>
+                <div class="tbl-cont -c-cont -def-5">
+                  <div class="cell">
+                    <p>Начислений <span class="ds-clr">19</span> из <span class="ds-clr">35</span></p>
+                    <div class="progress horizontal no-text bar-investments">
+                      <div class="progress-bar col3">
+                        <div class="progress-track">
+                          <div class="progress-fill"><span>47%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-6">
+                  <div class="cell">
+                    <p>Всего <br> начислено:</p><span class="cap ds-clr">190$</span>
+                  </div>
+                  <div class="cell">
+                    <p>Осталось <br> начислить:</p><span class="cap ds-clr">38%</span>
+                  </div>
+                </div>
+                <div class="diamond investments">
+                  <div class="dd-cont">
+                    <div class="h" style="height: 45%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-block tb-col3 defsotr clr-4">
+                <div class="tbl-cont -c-cont -def-1">
+                  <div class="cell"><span class="ds-clr"><span class="cap">180%</span> за 45 дней</span><span>Создано: 27.08.2016</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-2">
+                  <div class="cell"><span>сумма вклада:</span><span class="cap">250.00$</span></div>
+                </div>
+                <div class="tbl-cont -c-cont -def-3">
+                  <div class="cell"><span>платежная система:</span><img src="img/pay-systems-pm.png" alt=""></div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-4">
+                  <div class="cell">
+                    <p>Следующее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                  <div class="cell">
+                    <p>Последнее начисление:</p><span>26.08.2016, 23:45</span>
+                  </div>
+                </div>
+                <div class="tbl-cont -c-cont -def-5">
+                  <div class="cell">
+                    <p>Начислений <span class="ds-clr">19</span> из <span class="ds-clr">35</span></p>
+                    <div class="progress horizontal no-text bar-investments">
+                      <div class="progress-bar col5">
+                        <div class="progress-track">
+                          <div class="progress-fill"><span>47%</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tbl-cont -lr-cont -def-6">
+                  <div class="cell">
+                    <p>Всего <br> начислено:</p><span class="cap ds-clr">190$</span>
+                  </div>
+                  <div class="cell">
+                    <p>Осталось <br> начислить:</p><span class="cap ds-clr">38%</span>
+                  </div>
+                </div>
+                <div class="diamond investments">
+                  <div class="dd-cont">
+                    <div class="h" style="height: 60%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="tab-list">
+            <li class="active"><a href="#">
+                <div class="diamond nav active"><i class="dd-cont icon -lk-statistics"></i></div><span class="tl-text">статистика</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-investments"></i></div><span class="tl-text">Инвестиции</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-operations"></i></div><span class="tl-text">Операции</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-partners"></i></div><span class="tl-text">Партнеры</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-ads"></i></div><span class="tl-text">Рекламные Материалы</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-balance"></i></div><span class="tl-text">Балансы ЭПС</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-settings"></i></div><span class="tl-text">Настройки</span></a></li>
+            <li><a href="#">
+                <div class="diamond nav unactive"><i class="dd-cont icon -lk-exit"></i></div><span class="tl-text">Выход</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer id="lk-footer">
+      <div class="container grid -lr-cont">
+        <div class="col-6"><span class="copyright">© 2016 Feed Invest LTD</span></div>
+        <div class="col-6"><a class="btn b-ico er-enter" href="#"><i class="b-home"></i><span>на главную страницу</span></a></div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+      function copyToClipboard(text) {
+        window.prompt("Чтобы скопировать текст в буфер обмена, нажмите Ctrl+C и Enter", text);
+      }
+    </script>
+  </body>
+</html>

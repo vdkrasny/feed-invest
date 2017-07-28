@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedHeavy.eot');
+  src: url('BoxedHeavy.eot?#iefix') format('embedded-opentype'),
+  url('BoxedHeavy.woff2') format('woff2'),
+  url('BoxedHeavy.woff') format('woff'),
+  url('BoxedHeavy.ttf') format('truetype'),
+  url('BoxedHeavy.svg#BoxedHeavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedRegular-Bold.eot');
+  src: url('BoxedRegular-Bold.eot?#iefix') format('embedded-opentype'),
+  url('BoxedRegular-Bold.woff2') format('woff2'),
+  url('BoxedRegular-Bold.woff') format('woff'),
+  url('BoxedRegular-Bold.ttf') format('truetype'),
+  url('BoxedRegular-Bold.svg#BoxedRegular-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedSemibold.eot');
+  src: url('BoxedSemibold.eot?#iefix') format('embedded-opentype'),
+  url('BoxedSemibold.woff2') format('woff2'),
+  url('BoxedSemibold.woff') format('woff'),
+  url('BoxedSemibold.ttf') format('truetype'),
+  url('BoxedSemibold.svg#BoxedSemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedRegular.eot');
+  src: url('BoxedRegular.eot?#iefix') format('embedded-opentype'),
+  url('BoxedRegular.woff2') format('woff2'),
+  url('BoxedRegular.woff') format('woff'),
+  url('BoxedRegular.ttf') format('truetype'),
+  url('BoxedRegular.svg#BoxedRegular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedMedium.eot');
+  src: url('BoxedMedium.eot?#iefix') format('embedded-opentype'),
+  url('BoxedMedium.woff2') format('woff2'),
+  url('BoxedMedium.woff') format('woff'),
+  url('BoxedMedium.ttf') format('truetype'),
+  url('BoxedMedium.svg#BoxedMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedBook.eot');
+  src: url('BoxedBook.eot?#iefix') format('embedded-opentype'),
+  url('BoxedBook.woff2') format('woff2'),
+  url('BoxedBook.woff') format('woff'),
+  url('BoxedBook.ttf') format('truetype'),
+  url('BoxedBook.svg#BoxedBook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedLight.eot');
+  src: url('BoxedLight.eot?#iefix') format('embedded-opentype'),
+  url('BoxedLight.woff2') format('woff2'),
+  url('BoxedLight.woff') format('woff'),
+  url('BoxedLight.ttf') format('truetype'),
+  url('BoxedLight.svg#BoxedLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedExtralight.eot');
+  src: url('BoxedExtralight.eot?#iefix') format('embedded-opentype'),
+  url('BoxedExtralight.woff2') format('woff2'),
+  url('BoxedExtralight.woff') format('woff'),
+  url('BoxedExtralight.ttf') format('truetype'),
+  url('BoxedExtralight.svg#BoxedExtralight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedThin.eot');
+  src: url('BoxedThin.eot?#iefix') format('embedded-opentype'),
+  url('BoxedThin.woff2') format('woff2'),
+  url('BoxedThin.woff') format('woff'),
+  url('BoxedThin.ttf') format('truetype'),
+  url('BoxedThin.svg#BoxedThin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedHeavy-Italic.eot');
+  src: url('BoxedHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedHeavy-Italic.woff2') format('woff2'),
+  url('BoxedHeavy-Italic.woff') format('woff'),
+  url('BoxedHeavy-Italic.ttf') format('truetype'),
+  url('BoxedHeavy-Italic.svg#BoxedHeavy-Italic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedRegular-BoldItalic.eot');
+  src: url('BoxedRegular-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedRegular-BoldItalic.woff2') format('woff2'),
+  url('BoxedRegular-BoldItalic.woff') format('woff'),
+  url('BoxedRegular-BoldItalic.ttf') format('truetype'),
+  url('BoxedRegular-BoldItalic.svg#BoxedRegular-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedSemibold-Italic.eot');
+  src: url('BoxedSemibold-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedSemibold-Italic.woff2') format('woff2'),
+  url('BoxedSemibold-Italic.woff') format('woff'),
+  url('BoxedSemibold-Italic.ttf') format('truetype'),
+  url('BoxedSemibold-Italic.svg#BoxedSemibold-Italic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedRegular-Italic.eot');
+  src: url('BoxedRegular-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedRegular-Italic.woff2') format('woff2'),
+  url('BoxedRegular-Italic.woff') format('woff'),
+  url('BoxedRegular-Italic.ttf') format('truetype'),
+  url('BoxedRegular-Italic.svg#BoxedRegular-Italic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedMedium-Italic.eot');
+  src: url('BoxedMedium-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedMedium-Italic.woff2') format('woff2'),
+  url('BoxedMedium-Italic.woff') format('woff'),
+  url('BoxedMedium-Italic.ttf') format('truetype'),
+  url('BoxedMedium-Italic.svg#BoxedMedium-Italic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedBook-Italic.eot');
+  src: url('BoxedBook-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedBook-Italic.woff2') format('woff2'),
+  url('BoxedBook-Italic.woff') format('woff'),
+  url('BoxedBook-Italic.ttf') format('truetype'),
+  url('BoxedBook-Italic.svg#BoxedBook-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedLight-Italic.eot');
+  src: url('BoxedLight-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedLight-Italic.woff2') format('woff2'),
+  url('BoxedLight-Italic.woff') format('woff'),
+  url('BoxedLight-Italic.ttf') format('truetype'),
+  url('BoxedLight-Italic.svg#BoxedLight-Italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedExtralight-Italic.eot');
+  src: url('BoxedExtralight-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedExtralight-Italic.woff2') format('woff2'),
+  url('BoxedExtralight-Italic.woff') format('woff'),
+  url('BoxedExtralight-Italic.ttf') format('truetype'),
+  url('BoxedExtralight-Italic.svg#BoxedExtralight-Italic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Boxed';
+  src: url('BoxedThin-Italic.eot');
+  src: url('BoxedThin-Italic.eot?#iefix') format('embedded-opentype'),
+  url('BoxedThin-Italic.woff2') format('woff2'),
+  url('BoxedThin-Italic.woff') format('woff'),
+  url('BoxedThin-Italic.ttf') format('truetype'),
+  url('BoxedThin-Italic.svg#BoxedThin-Italic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+
+
